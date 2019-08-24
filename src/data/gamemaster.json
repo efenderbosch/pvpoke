@@ -6722,6 +6722,7 @@
 		"types": ["water", "rock"],
 		"fastMoves": ["WATER_GUN", "ZEN_HEADBUTT"],
 		"chargedMoves": ["ANCIENT_POWER", "AQUA_TAIL", "HYDRO_PUMP"],
+		"tags": ["regional"],
 		"defaultIVs": {
 			"cp1500": [22.5, 1, 13, 11],
 			"cp2500": [40, 15, 3, 13]
@@ -8343,6 +8344,7 @@
 		"types": ["fire", "none"],
 		"fastMoves": ["EMBER", "FIRE_SPIN"],
 		"chargedMoves": ["EARTHQUAKE", "OVERHEAT", "SOLAR_BEAM"],
+		"tags": ["regional"],
 		"defaultIVs": {
 			"cp1500": [28.5, 0, 12, 3],
 			"cp2500": [40, 15, 15, 15]
