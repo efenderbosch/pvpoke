@@ -5,7 +5,15 @@
 		<p class="copyright">Version <a href="https://github.com/pvpoke/pvpoke/releases"><?php echo $SITE_VERSION; ?></a> &copy; 2019, released under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT license</a> | <a href="<?php echo $WEB_ROOT;?>privacy/">Privacy Policy</a></p>
 		<p>Pokémon and Pokémon GO are copyright of The Pokémon Company, Niantic, Inc., and Nintendo. All trademarked images and names are property of their respective owners, and any such material is used on this site for educational purposes only.</p>
 	</footer>
-	<img class="background" src="<?php echo $WEB_ROOT; ?>img/bg.jpg" />
+
+	<?php
+	$bgDir = '';
+
+	if((isset($_SETTINGS->theme))&&($_SETTINGS->theme != "default")){
+		$bgDir = '/themes/'.$_SETTINGS->theme.'/';
+	}
+	?>
+	<img class="background" src="<?php echo $WEB_ROOT; ?>img/<?php echo $bgDir; ?>bg.jpg" />
 	
 	<!--Global script-->
 	<script>
@@ -24,22 +32,6 @@
 				$(".submenu").removeClass("active");
 			}
 		});
-		
-		
-		// If $_GET request exists, output as JSON into Javascript
-		
-		<?php
-		foreach($_GET as &$param){
-			$param = htmlspecialchars($param);
-		}
-		
-		
-		if($_GET){
-			echo 'var get = ' . json_encode($_GET) . ';';
-		} else{
-			echo 'var get = false;';
-		}
-		?>
 		
 		// Auto select link
 		
