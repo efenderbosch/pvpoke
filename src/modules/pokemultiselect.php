@@ -40,6 +40,7 @@
 				<option value="twilight">Twilight Cup Meta</option>
 				<option value="boulder">Boulder Cup Meta</option>			
 				<option value="leaders">Team Leader Pokemon</option>
+				<option value="rainbow-2">Rainbow 2: Electric Boogaloo</option>
 
 				<?php
 				// Display custom groups

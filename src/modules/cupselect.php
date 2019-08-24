@@ -9,6 +9,7 @@
 	<option value="tempest">Tempest Cup</option>
 	<option value="twilight">Twilight Cup</option>
 	<option value="boulder">Boulder Cup</option>
+	<option value="rainbow-2">Rainbow 2: Electric Boogaloo</option>
 	
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'battle') !== false): ?>
 		<option value="custom">Custom</option>

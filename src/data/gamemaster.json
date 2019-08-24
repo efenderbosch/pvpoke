@@ -141,6 +141,25 @@
 				}
 			]
 		},
+        {
+          "name": "rainbow-2",
+          "title": "Rainbow 2: Electric Boogaloo",
+          "include": [
+            {
+              "filterType": "type",
+              "values": [
+                "fire", "water", "electric", "grass", "bug"
+              ]
+            },
+            {
+              "filterType": "dex",
+              "values": [
+                252, 488
+              ]
+            }
+          ],
+          "exclude": []
+        },
 		{
 			"name": "jungle",
 			"title": "Jungle Cup",
