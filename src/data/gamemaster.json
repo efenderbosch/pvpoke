@@ -9172,9 +9172,8 @@
 			"hp": 207
 		},
 		"types": ["electric", "flying"],
-		"fastMoves": ["CHARGE_BEAM", "THUNDER_SHOCK"],
+		"fastMoves": ["CHARGE_BEAM"],
 		"chargedMoves": ["THUNDER", "THUNDERBOLT", "ZAP_CANNON", "ANCIENT_POWER", "DRILL_PECK"],
-		"legacyMoves": ["THUNDER_SHOCK"],
 		"tags": ["legendary"],
 		"defaultIVs": {
 			"cp1500": [16, 2, 13, 4],
