@@ -722,5 +722,15 @@
 				"weight": 0.5
 			}
 		]
+	},
+	{
+		"league": 1500,
+		"cup": "rainbow-2",
+		"pokemon": [
+			{
+				"speciesId": "zapdos",
+				"fastMove": "CHARGE_BEAM"
+			}
+		]
 	}
 ]
